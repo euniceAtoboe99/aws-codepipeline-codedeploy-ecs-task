@@ -1,0 +1,9 @@
+{
+  "name": "aws-codepipeline-codedeploy-ecs-task",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal container app for an AWS CodePipeline, CodeDeploy, and ECS exercise",
+  "main": "app.js",
+  "scripts": { "start": "node app.js" },
+  "engines": { "node": ">=20" }
+}
