@@ -80,9 +80,6 @@ Record only challenges you actually encountered. Use this table during the lab:
 
 Common checks if a stage fails: confirm all resources are in the same Region; check that CodeBuild is in privileged mode and has ECR push permissions; confirm the ECR repository name and task-definition account ID; ensure the task security group permits traffic from the ALB; and verify that the CodeDeploy deployment group has the correct ECS service, listener, and two target groups.
 
-## Cleanup
-
-To avoid ongoing sandbox usage, delete the pipeline, CodeBuild project, CodeDeploy deployment group/application, ECS service/cluster, load balancer and target groups, and ECR repository after capturing evidence. Empty ECR images before deleting the repository.
 
 ## AWS references
 
